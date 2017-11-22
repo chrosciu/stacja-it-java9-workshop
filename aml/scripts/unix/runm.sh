@@ -1,0 +1,1 @@
+java --module-path ../../bin:../../bin/lib:../../../extrule/build/libs -m aml

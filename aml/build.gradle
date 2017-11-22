@@ -1,0 +1,67 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+sourceCompatibility = 9
+targetCompatibility = 9
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':tinyspring')
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'it.stacja.java9.aml.app.AntiMoneyLaunderingSystem'
+    }
+}
+
+mainClassName = 'it.stacja.java9.aml.app.AntiMoneyLaunderingSystem'
+
+//ext.moduleName = 'aml'
+//
+//mainClassName = "$moduleName/it.stacja.java9.aml.app.AntiMoneyLaunderingSystem"
+//
+//run {
+//    standardInput = System.in
+//    inputs.property("moduleName", moduleName)
+//    doFirst {
+//        jvmArgs = [
+//                '--module-path', classpath.asPath,
+//                '--module', mainClassName // <2>
+//        ]
+//        classpath = files()
+//    }
+//}
+//
+//compileTestJava {
+//    inputs.property("moduleName", moduleName)
+//    doFirst {
+//        options.compilerArgs = [
+//                '--module-path', classpath.asPath,
+//                '--add-modules', 'junit',
+//                '--add-reads', "$moduleName=junit",
+//                '--patch-module', "$moduleName=" + files(sourceSets.test.java.srcDirs).asPath,
+//        ]
+//        classpath = files()
+//    }
+//}
+//
+//test {
+//    inputs.property("moduleName", moduleName)
+//    doFirst {
+//        jvmArgs = [
+//                '--module-path', classpath.asPath,
+//                '--add-modules', 'ALL-MODULE-PATH',
+//                '--add-reads', "$moduleName=junit",
+//                '--patch-module', "$moduleName=" + files(sourceSets.test.java.outputDir).asPath,
+//        ]
+//        classpath = files()
+//    }
+//}
