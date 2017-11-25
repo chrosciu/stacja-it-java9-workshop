@@ -11,6 +11,7 @@ import it.stacja.tinyspring.TinySpringContext;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.ServiceLoader;
 
 public class AntiMoneyLaunderingSystem {
     public static void main(String[] args) throws IOException, InterruptedException {
@@ -22,9 +23,20 @@ public class AntiMoneyLaunderingSystem {
         LocalTransactionProvider localTransactionProvider = tinySpringContext.getElement(LocalTransactionProvider.class);
         List<Transaction> transactions = localTransactionProvider.getTransactions();
 
-        checkAgainstRule(transactions, new BlacklistRule());
-        checkAgainstRule(transactions, new LongRunningRule());
-        checkAgainstRule(transactions, new HistoricalTransactionsRule());
+        //checkAgainstRule(transactions, new BlacklistRule());
+        //checkAgainstRule(transactions, new LongRunningRule());
+        //checkAgainstRule(transactions, new HistoricalTransactionsRule());
+
+        ServiceLoader<Rule> ruleLoader = ServiceLoader.load(Rule.class);
+
+        ruleLoader
+                .stream()
+                .forEach(
+                        ruleProvider ->
+                                checkAgainstRule(transactions, ruleProvider.get()
+                                )
+                );
+
     }
 
     static void checkAgainstRule(List<Transaction> transactions, Rule rule) {

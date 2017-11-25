@@ -6,15 +6,15 @@ repositories {
     mavenCentral()
 }
 
-//subprojects {
-//    afterEvaluate {
-//        compileJava {
-//            doFirst {
-//                options.compilerArgs = [
-//                        '--module-path', classpath.asPath,
-//                ]
-//                classpath = files()
-//            }
-//        }
-//    }
-//}
+subprojects {
+    afterEvaluate {
+        compileJava {
+            doFirst {
+                options.compilerArgs = [
+                        '--module-path', classpath.asPath,
+                ]
+                classpath = files()
+            }
+        }
+    }
+}
