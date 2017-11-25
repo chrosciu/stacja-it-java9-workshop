@@ -4,7 +4,7 @@ import it.stacja.java9.aml.rules.api.Transaction;
 
 import java.util.List;
 
-@Deprecated
+@Deprecated(forRemoval = true)
 public class OldTransactionProvider implements TransactionProvider {
     public List<Transaction> getTransactions() {
         throw new UnsupportedOperationException();

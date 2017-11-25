@@ -13,6 +13,9 @@ public class BlacklistProvider implements AutoCloseable {
         /*
             Add information about the caller
          */
+        StackWalker
+                .getInstance(StackWalker.Option.RETAIN_CLASS_REFERENCE)
+                .getCallerClass();
         
         return Arrays.asList(
                 new BadGuy("Lord", "Voldemort", 10),

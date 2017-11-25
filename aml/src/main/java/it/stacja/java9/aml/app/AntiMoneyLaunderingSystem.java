@@ -1,6 +1,7 @@
 package it.stacja.java9.aml.app;
 
 import it.stacja.java9.aml.providers.LocalTransactionProvider;
+import it.stacja.java9.aml.providers.WebSocketTransactionListener;
 import it.stacja.java9.aml.rules.api.Rule;
 import it.stacja.java9.aml.rules.api.Transaction;
 import it.stacja.java9.aml.rules.impl.BlacklistRule;
@@ -10,15 +11,19 @@ import it.stacja.java9.aml.util.Log;
 //import it.stacja.tinyspring.TinySpringContext;
 
 import java.io.IOException;
+import java.net.URI;
 import java.util.List;
 import java.util.ServiceLoader;
 import java.util.function.Consumer;
+import jdk.incubator.http.HttpClient;
+
 
 public class AntiMoneyLaunderingSystem {
     public static void main(String[] args) throws IOException, InterruptedException {
         /*
             Add information about the current process
          */
+        Log.log("PID: "  + ProcessHandle.current().pid());
 
 //        TinySpringContext tinySpringContext = new TinySpringContext("it.stacja.java9.aml.providers");
 //        LocalTransactionProvider localTransactionProvider = tinySpringContext.getElement(LocalTransactionProvider.class);
@@ -32,6 +37,12 @@ public class AntiMoneyLaunderingSystem {
         ServiceLoader<Rule> ruleLoader = ServiceLoader.load(Rule.class);
 
         ruleLoader.stream().forEach(ruleProvider -> checkAgainstRule(transactions, ruleProvider.get()));
+
+        HttpClient.newHttpClient().newWebSocketBuilder(
+                URI.create("ws://localhost:8080/transactions"),
+                new WebSocketTransactionListener()).buildAsync().join();
+
+        System.in.read();
     }
 
     static void checkAgainstRule(List<Transaction> transactions, Rule rule) {

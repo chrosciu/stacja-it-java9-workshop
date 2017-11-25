@@ -16,8 +16,9 @@ public class HistoricalTransactionsRule implements Rule {
         boolean biggestTransactionEver = new HistoricalTransactionsProvider()
                 .getBiggestTransactionsFromLast12Months(transaction.getSenderFirstName(), transaction.getSenderLastName())
                 .stream()
-                .filter(Optional::isPresent)
-                .map(Optional::get)
+//                .filter(Optional::isPresent)
+//                .map(Optional::get)
+                .flatMap(Optional::stream)
                 .allMatch(hist -> hist.compareTo(transaction.getAmount()) < 0);
 
         return biggestTransactionEver ? ScanResult.failed() : ScanResult.ok();

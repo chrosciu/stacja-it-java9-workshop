@@ -14,12 +14,15 @@ public class BlacklistRule implements Rule {
     @Override
     public ScanResult scan(Transaction transaction) {
         Log.log("Running BlacklistRule with id: " + this.getRunId());
+
+        BlacklistProvider provider = new BlacklistProvider();
         
-        try(BlacklistProvider provider = new BlacklistProvider()) {
+        try(provider) {
             return provider
                     .getBadGuys()
                     .stream()
-                    .filter(badGuy -> badGuy.getScore() >= 5)
+                    //.filter(badGuy -> badGuy.getScore() >= 5)
+                    .takeWhile(badGuy -> badGuy.getScore() >= 5)
                     .anyMatch(transaction::matches) ? ScanResult.failed() : ScanResult.ok();
         } catch (Exception e) {
             throw new RuntimeException(e);

@@ -1,5 +1,6 @@
 module aml {
     //requires tinyspring;
+    requires jdk.incubator.httpclient;
     //exports it.stacja.java9.aml.providers to tinyspring;
     exports it.stacja.java9.aml.rules.api;
     //opens it.stacja.java9.aml.providers to tinyspring;
