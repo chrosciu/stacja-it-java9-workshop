@@ -9,6 +9,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="amlapi_main" />
     <orderEntry type="module" module-name="extrule_main" scope="RUNTIME" />
   </component>
 </module>

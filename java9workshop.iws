@@ -2,14 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48f38756-f7b6-4e73-9348-ee7d90e226bb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aml/src/main/java/module-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extrule/src/main/java/module-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tinyspring/src/main/java/module-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/amlapi.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/amlapi/amlapi_main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/amlapi/amlapi_test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/amlapi/src/main/java/module-info.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aml/build/classes/java/main/it/stacja/java9/aml/providers/BlacklistProvider$BadGuy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aml/build/classes/java/main/it/stacja/java9/aml/providers/BlacklistProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aml/build/classes/java/main/it/stacja/java9/aml/rules/api/Rule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aml/build/classes/java/main/it/stacja/java9/aml/rules/api/ScanResult$Status.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aml/build/classes/java/main/it/stacja/java9/aml/rules/api/ScanResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aml/build/classes/java/main/it/stacja/java9/aml/rules/api/Transaction.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/providers/BlacklistProvider.java" afterPath="$PROJECT_DIR$/amlapi/src/main/java/it/stacja/java9/aml/rules/api/BlacklistProvider.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/rules/api/Rule.java" afterPath="$PROJECT_DIR$/amlapi/src/main/java/it/stacja/java9/aml/rules/api/Rule.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/rules/api/ScanResult.java" afterPath="$PROJECT_DIR$/amlapi/src/main/java/it/stacja/java9/aml/rules/api/ScanResult.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/rules/api/Transaction.java" afterPath="$PROJECT_DIR$/amlapi/src/main/java/it/stacja/java9/aml/rules/api/Transaction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileContent/fileContent.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/resourceHashesCache.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aml/build/classes/java/main/it/stacja/java9/aml/rules/impl/BlacklistRule.class" afterPath="$PROJECT_DIR$/aml/build/classes/java/main/it/stacja/java9/aml/rules/impl/BlacklistRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aml/build/classes/java/main/module-info.class" afterPath="$PROJECT_DIR$/aml/build/classes/java/main/module-info.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aml/build/distributions/aml.tar" afterPath="$PROJECT_DIR$/aml/build/distributions/aml.tar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aml/build/distributions/aml.zip" afterPath="$PROJECT_DIR$/aml/build/distributions/aml.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aml/build/install/aml/lib/aml.jar" afterPath="$PROJECT_DIR$/aml/build/install/aml/lib/aml.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aml/build/install/aml/lib/extrule.jar" afterPath="$PROJECT_DIR$/aml/build/install/aml/lib/extrule.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aml/build/libs/aml.jar" afterPath="$PROJECT_DIR$/aml/build/libs/aml.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/java9workshop.jar" afterPath="$PROJECT_DIR$/build/libs/java9workshop.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extrule/build/classes/java/main/module-info.class" afterPath="$PROJECT_DIR$/extrule/build/classes/java/main/module-info.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extrule/build/libs/extrule.jar" afterPath="$PROJECT_DIR$/extrule/build/libs/extrule.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multirelease/build/distributions/multirelease.tar" afterPath="$PROJECT_DIR$/multirelease/build/distributions/multirelease.tar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multirelease/build/distributions/multirelease.zip" afterPath="$PROJECT_DIR$/multirelease/build/distributions/multirelease.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multirelease/build/install/multirelease/lib/multirelease.jar" afterPath="$PROJECT_DIR$/multirelease/build/install/multirelease/lib/multirelease.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multirelease/build/libs/multirelease.jar" afterPath="$PROJECT_DIR$/multirelease/build/libs/multirelease.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tinyspring/build/libs/tinyspring.jar" afterPath="$PROJECT_DIR$/tinyspring/build/libs/tinyspring.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aml/aml_main.iml" afterPath="$PROJECT_DIR$/aml/aml_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aml/aml_test.iml" afterPath="$PROJECT_DIR$/aml/aml_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aml/build.gradle" afterPath="$PROJECT_DIR$/aml/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/app/AntiMoneyLaunderingSystem.java" afterPath="$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/app/AntiMoneyLaunderingSystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/providers/LocalTransactionProvider.java" afterPath="$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/providers/LocalTransactionProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extrule/src/main/java/it/stacja/java9/aml/ext/ExtRule.java" afterPath="$PROJECT_DIR$/extrule/src/main/java/it/stacja/java9/aml/ext/ExtRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aml/build/install/aml/bin/aml" afterPath="$PROJECT_DIR$/aml/build/install/aml/bin/aml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aml/build/install/aml/bin/aml.bat" afterPath="$PROJECT_DIR$/aml/build/install/aml/bin/aml.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aml/build/scripts/aml" afterPath="$PROJECT_DIR$/aml/build/scripts/aml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aml/build/scripts/aml.bat" afterPath="$PROJECT_DIR$/aml/build/scripts/aml.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/rules/impl/BlacklistRule.java" afterPath="$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/rules/impl/BlacklistRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aml/src/main/java/module-info.java" afterPath="$PROJECT_DIR$/aml/src/main/java/module-info.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extrule/build.gradle" afterPath="$PROJECT_DIR$/extrule/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extrule/extrule_main.iml" afterPath="$PROJECT_DIR$/extrule/extrule_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extrule/extrule_test.iml" afterPath="$PROJECT_DIR$/extrule/extrule_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extrule/src/main/java/module-info.java" afterPath="$PROJECT_DIR$/extrule/src/main/java/module-info.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java9workshop.ipr" afterPath="$PROJECT_DIR$/java9workshop.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java9workshop.iws" afterPath="$PROJECT_DIR$/java9workshop.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -26,6 +71,9 @@
     <ignored path="$PROJECT_DIR$/tinyspring/.gradle/" />
     <ignored path="$PROJECT_DIR$/tinyspring/build/" />
     <ignored path="$PROJECT_DIR$/tinyspring/out/" />
+    <ignored path="$PROJECT_DIR$/amlapi/.gradle/" />
+    <ignored path="$PROJECT_DIR$/amlapi/build/" />
+    <ignored path="$PROJECT_DIR$/amlapi/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -154,30 +202,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tinyspring/build.gradle">
+        <entry file="file://$PROJECT_DIR$/aml/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-109">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AntiMoneyLaunderingSystem.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/app/AntiMoneyLaunderingSystem.java">
+      <file leaf-file-name="module-info.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/amlapi/src/main/java/module-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LocalTransactionProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/providers/LocalTransactionProvider.java">
+      <file leaf-file-name="BlacklistRule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/rules/impl/BlacklistRule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,28 +233,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aml/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module-info.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tinyspring/src/main/java/module-info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extrule/build.gradle">
+      <file leaf-file-name="ScanResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amlapi/src/main/java/it/stacja/java9/aml/rules/api/ScanResult.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -215,27 +243,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="module-info.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aml/src/main/java/module-info.java">
+      <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amlapi/src/main/java/it/stacja/java9/aml/rules/api/Transaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="153">
+              <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExtRule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extrule/src/main/java/it/stacja/java9/aml/ext/ExtRule.java">
+      <file leaf-file-name="BlacklistProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amlapi/src/main/java/it/stacja/java9/aml/rules/api/BlacklistProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extrule/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module-info.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aml/src/main/java/module-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AntiMoneyLaunderingSystem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/app/AntiMoneyLaunderingSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="31" column="58" lean-forward="false" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -244,18 +298,8 @@
       <file leaf-file-name="module-info.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/extrule/src/main/java/module-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="17">
+              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -302,6 +346,10 @@
               <ExternalProjectPojo>
                 <option name="name" value=":aml" />
                 <option name="path" value="$PROJECT_DIR$/aml" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":amlapi" />
+                <option name="path" value="$PROJECT_DIR$/amlapi" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":extrule" />
@@ -664,6 +712,137 @@
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of project ':aml'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aml" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/amlapi">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':amlapi'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':amlapi'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':amlapi'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':amlapi'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':amlapi'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':amlapi'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':amlapi'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':amlapi'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':amlapi'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/amlapi" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
@@ -1111,9 +1290,12 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="10580960127165" />
-        <entry key="$PROJECT_DIR$/aml/build.gradle" value="262487407" />
+        <entry key="$PROJECT_DIR$" value="12092702435824" />
+        <entry key="$PROJECT_DIR$/aml/build.gradle" value="2998114935" />
+        <entry key="$PROJECT_DIR$/amlapi/build.gradle" value="392738426" />
         <entry key="$PROJECT_DIR$/build.gradle" value="2525181440" />
+        <entry key="$PROJECT_DIR$/extrule/build.gradle" value="303655304" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="3600147127" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1134,6 +1316,13 @@
                     <value>
                       <ExternalModuleBuildClasspathPojo>
                         <option name="path" value="$PROJECT_DIR$/aml" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/amlapi">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/amlapi" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1325,11 +1514,16 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/tinyspring/src/main/java/module-info.java" />
         <option value="$PROJECT_DIR$/extrule/src/main/java/it/stacja/java9/aml/ext/ExtRule.java" />
-        <option value="$PROJECT_DIR$/extrule/src/main/java/module-info.java" />
-        <option value="$PROJECT_DIR$/aml/build.gradle" />
         <option value="$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/providers/LocalTransactionProvider.java" />
         <option value="$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/app/AntiMoneyLaunderingSystem.java" />
+        <option value="$PROJECT_DIR$/amlapi/build.gradle" />
+        <option value="$PROJECT_DIR$/amlapi/src/main/java/it/stacja/java9/aml/rules/api/Transaction.java" />
+        <option value="$PROJECT_DIR$/aml/build.gradle" />
+        <option value="$PROJECT_DIR$/extrule/src/main/java/module-info.java" />
+        <option value="$PROJECT_DIR$/extrule/build.gradle" />
+        <option value="$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/rules/impl/BlacklistRule.java" />
         <option value="$PROJECT_DIR$/aml/src/main/java/module-info.java" />
+        <option value="$PROJECT_DIR$/amlapi/src/main/java/module-info.java" />
       </list>
     </option>
   </component>
@@ -1459,30 +1653,57 @@
               <item name="stacja" type="462c0819:PsiDirectoryNode" />
               <item name="java9" type="462c0819:PsiDirectoryNode" />
               <item name="aml" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="providers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="extrule" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="aml" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+              <item name="stacja" type="462c0819:PsiDirectoryNode" />
+              <item name="java9" type="462c0819:PsiDirectoryNode" />
+              <item name="aml" type="462c0819:PsiDirectoryNode" />
+              <item name="rules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="extrule" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="aml" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+              <item name="stacja" type="462c0819:PsiDirectoryNode" />
+              <item name="java9" type="462c0819:PsiDirectoryNode" />
+              <item name="aml" type="462c0819:PsiDirectoryNode" />
+              <item name="rules" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="amlapi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="amlapi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="extrule" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="amlapi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="extrule" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="amlapi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -1490,7 +1711,7 @@
             <path>
               <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="extrule" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="amlapi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -1499,7 +1720,7 @@
             <path>
               <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="extrule" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="amlapi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -1509,7 +1730,7 @@
             <path>
               <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="extrule" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="amlapi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -1520,7 +1741,7 @@
             <path>
               <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="extrule" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="amlapi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -1532,7 +1753,7 @@
             <path>
               <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="extrule" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="amlapi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -1540,63 +1761,47 @@
               <item name="stacja" type="462c0819:PsiDirectoryNode" />
               <item name="java9" type="462c0819:PsiDirectoryNode" />
               <item name="aml" type="462c0819:PsiDirectoryNode" />
-              <item name="ext" type="462c0819:PsiDirectoryNode" />
+              <item name="rules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="tinyspring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="tinyspring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="tinyspring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="tinyspring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="tinyspring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="it" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="tinyspring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="amlapi" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="it" type="462c0819:PsiDirectoryNode" />
               <item name="stacja" type="462c0819:PsiDirectoryNode" />
+              <item name="java9" type="462c0819:PsiDirectoryNode" />
+              <item name="aml" type="462c0819:PsiDirectoryNode" />
+              <item name="rules" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="tinyspring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="extrule" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="extrule" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="extrule" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="java9workshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stacja-it-java9-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="extrule" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="it" type="462c0819:PsiDirectoryNode" />
-              <item name="stacja" type="462c0819:PsiDirectoryNode" />
-              <item name="tinyspring" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1623,6 +1828,17 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
     <property name="ignore_missing_gitignore" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="it.stacja.java9.aml.rules.api" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="it.stacja.java9.aml.providers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CHROSTM\gitroot\stacja-it-java9-workshop\amlapi\src\main\java\it\stacja\java9\aml\rules\api" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1753,38 +1969,37 @@
       <option name="presentableId" value="Default" />
       <updated>1511559378882</updated>
       <workItem from="1511559380129" duration="1076000" />
-      <workItem from="1511596430923" duration="7749000" />
+      <workItem from="1511596430923" duration="10382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8825000" />
+    <option name="totallyTimeSpent" value="11458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.014173228" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3448819" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26771653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4590044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22620791" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22620791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1878,11 +2093,11 @@
         <state relative-caret-position="102">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#312#313#0" expanded="false" />
+            <element signature="e#350#351#0" expanded="false" />
+            <element signature="e#395#396#0" expanded="false" />
+            <element signature="e#427#428#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1895,34 +2110,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extrule/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extrule/src/main/java/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aml/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1937,18 +2128,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aml/src/main/java/module-info.java">
+    <entry file="file://$PROJECT_DIR$/amlapi/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="187">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amlapi/src/main/java/it/stacja/java9/aml/rules/api/Rule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amlapi/src/main/java/it/stacja/java9/aml/rules/api/ScanResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/rules/api/Rule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/rules/api/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amlapi/src/main/java/it/stacja/java9/aml/rules/api/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/providers/BlacklistProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amlapi/src/main/java/it/stacja/java9/aml/rules/api/BlacklistProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aml/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extrule/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extrule/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/rules/impl/BlacklistRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aml/src/main/java/it/stacja/java9/aml/app/AntiMoneyLaunderingSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="278">
+          <caret line="31" column="58" lean-forward="false" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aml/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amlapi/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
           <folding />
         </state>
       </provider>

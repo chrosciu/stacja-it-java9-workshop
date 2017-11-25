@@ -1,13 +1,10 @@
 package it.stacja.java9.aml.rules.impl;
 
-import it.stacja.java9.aml.providers.BlacklistProvider;
+import it.stacja.java9.aml.rules.api.BlacklistProvider;
 import it.stacja.java9.aml.rules.api.Rule;
 import it.stacja.java9.aml.rules.api.ScanResult;
 import it.stacja.java9.aml.rules.api.Transaction;
 import it.stacja.java9.aml.util.Log;
-
-import java.util.Arrays;
-import java.util.List;
 
 public class BlacklistRule implements Rule {
 

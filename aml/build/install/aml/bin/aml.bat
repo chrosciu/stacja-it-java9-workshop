@@ -63,7 +63,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\aml.jar;%APP_HOME%\lib\extrule.jar
+set CLASSPATH=%APP_HOME%\lib\aml.jar;%APP_HOME%\lib\extrule.jar;%APP_HOME%\lib\amlapi.jar
 
 @rem Execute aml
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %AML_OPTS%  -classpath "%CLASSPATH%" aml/it.stacja.java9.aml.app.AntiMoneyLaunderingSystem %CMD_LINE_ARGS%

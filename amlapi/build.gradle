@@ -1,0 +1,13 @@
+plugins {
+    id 'java-library'
+}
+
+sourceCompatibility = 9
+targetCompatibility = 9
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
