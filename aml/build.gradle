@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    implementation project(':tinyspring')
+    // implementation project(':tinyspring')
 
     runtimeOnly project(':extrule')
 

@@ -3,7 +3,7 @@
 
 
 module aml {
-    requires tinyspring;
+    // requires tinyspring;
 
     exports it.stacja.java9.aml.providers to tinyspring;
     exports it.stacja.java9.aml.rules.api;
