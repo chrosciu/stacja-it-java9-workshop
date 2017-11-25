@@ -1,4 +1,5 @@
 apply plugin: 'java'
+apply plugin: 'idea'
 
 sourceCompatibility = 1.9
 
@@ -6,15 +7,15 @@ repositories {
     mavenCentral()
 }
 
-//subprojects {
-//    afterEvaluate {
-//        compileJava {
-//            doFirst {
-//                options.compilerArgs = [
-//                        '--module-path', classpath.asPath,
-//                ]
-//                classpath = files()
-//            }
-//        }
-//    }
-//}
+subprojects {
+    afterEvaluate {
+        compileJava {
+            doFirst {
+                options.compilerArgs = [
+                        '--module-path', classpath.asPath,
+                ]
+                classpath = files()
+            }
+        }
+    }
+}

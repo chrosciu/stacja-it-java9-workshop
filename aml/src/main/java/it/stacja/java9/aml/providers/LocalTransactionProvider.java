@@ -1,13 +1,13 @@
 package it.stacja.java9.aml.providers;
 
 import it.stacja.java9.aml.rules.api.Transaction;
-import it.stacja.tinyspring.Element;
+//import it.stacja.tinyspring.Element;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
 
-@Element
+//@Element
 public class LocalTransactionProvider implements TransactionProvider {
     public List<Transaction> getTransactions() {
         return Arrays.asList(
